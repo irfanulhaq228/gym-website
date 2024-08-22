@@ -9,7 +9,7 @@ function App() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate("/signup");
-  }, []);
+  }, [navigate]);
   return (
     <Routes>
       <Route path="/login" element={<Login />} />

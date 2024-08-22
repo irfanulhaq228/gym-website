@@ -14,6 +14,7 @@ const Signup = () => {
   return (
     <div className="bg-purple-900 min-h-[100vh] flex flex-col justify-center items-center">
       <img
+        alt="bg-img"
         src={imgbg}
         className="h-[100vh] fixed w-full object-cover opacity-[0.3] top-0"
       />
@@ -105,7 +106,7 @@ const Signup = () => {
           </div>
         </div>
         <div className="flex-1 md:p-[20px] flex justify-center">
-          <img src={img} className="w-[100%] sm:h-[450px] object-contain" />
+          <img alt="auth-img" src={img} className="w-[100%] sm:h-[450px] object-contain" />
         </div>
       </div>
     </div>
